@@ -11,8 +11,17 @@ h2{
     text-align: center; font-size: 220%;
 }
 main{
-    background-color: goldenrod;
+    background-color: rgb(146, 208, 80);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+header{
+
+    background-color: rgb(77, 139, 195);
+    padding: 3%;
+}
+footer{
+    background-color: rgb(112, 48, 160);
+    padding: 3%;
 }
