@@ -7,6 +7,9 @@ body{
 .rodape{
     padding: 3%;
 }
+h1,h2{
+    line-height: 3;
+}
 .logo{
     background-color: rgb(255, 255, 0);
 }
