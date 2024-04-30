@@ -58,10 +58,11 @@ img{
 table{
     border-collapse: collapse;
     width: 100%;
+    border: left 1px;
 }
 td, th{
     border: 1px solid #dddddd;
-    text-align: left;
+    text-align:center;
     padding: 8px;
 }
 tr:nth-child(even){
