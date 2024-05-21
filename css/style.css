@@ -25,14 +25,14 @@ h2{
 p{
     line-height: 1.5;
     font-size: 1.2em;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 ul li{
     line-height: 1.5;
     font-size: 1.2em;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .logo{
     background-color: #ECC30B;
@@ -57,7 +57,10 @@ footer{
     background-color: #003F91;
 }
 img{
-    display: block; margin-left: auto; margin-right: auto; width: 100%;
+    display: block; margin-left: auto ; margin-right: auto; width: 100%;
+}
+.gif{
+    display: block; margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 15px; width: 40%;
 }
 table{
     border-collapse: collapse;
@@ -76,16 +79,16 @@ tr:nth-child(even){
 .linha{
     display: flex;
     flex-flow: row wrap;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5;
+    margin-right: 5; 
 }
 .col2{
-    width: 16%;
+    width: 15%;
 }
 .imggaleria{
-    width: 90%;
+    width: 95%;
     margin-top: 20%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-bottom: 15%;
 }
