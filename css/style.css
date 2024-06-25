@@ -1,5 +1,5 @@
 body{
-    background-color: #ECC30B; font-family: Verdana, Geneva, Tahoma, sans-serif ; font-size: 150%;
+    background-color: #FFCB1F; font-family: Verdana, Geneva, Tahoma, sans-serif ; font-size: 150%;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight:weight;
@@ -34,11 +34,17 @@ ul li{
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.divlogo{
+    background-color: #FFCB1F;
+}
+
 .logo{
-    background-color: #ECC30B;
+    width: 150px;
 }
 nav{
-    background-color: rgb( 255, 255, 255);
+    background-color: #FFCB1F;
+    text-align: center;
 }
 main{
     background-color: rgb(146, 208, 80);
@@ -46,21 +52,33 @@ main{
     margin-left: auto;
     margin-right: auto;
 }
+
+a{
+    text-decoration: none;
+    color: #00579D;
+}
+
+a:hover{
+    color: #117742;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
 section{
     background-color: rgb(255, 255, 255);
 }
 header{
 
-    background-color: #003F91;
+    background-color: #00579D;
 }
 footer{
-    background-color: #003F91;
+    background-color: #00579D;
 }
 img{
     display: block; margin-left: auto ; margin-right: auto; width: 100%;
 }
 .gif{
-    display: block; margin-left: auto; margin-right: auto; margin-top: 15px; margin-bottom: 15px; width: 40%;
+    display: block; padding-top: 25px; padding-bottom: 15px; width: 40%;
 }
 table{
     border-collapse: collapse;
