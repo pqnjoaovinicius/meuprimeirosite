@@ -119,11 +119,25 @@ img{
     display: block; padding-top: 25px; padding-bottom: 15px; width: 40%;
 }
 
-.float{
-    float: left;
-    width: 20%;
-    padding: 4%;
-    margin-bottom: 15%;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.abraco {
+    line-height: 1.5; 
+    font-size: 1.2em; 
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+
+.float {
+    float: left; 
+    width: 15%; 
+    padding-left: 5%;
+    padding-right: 5%; 
+    padding-bottom: 4%;
 }
 
 table{
