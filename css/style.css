@@ -6,6 +6,14 @@ body{
     font-style:normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 150px;
+}
+
 header{
     background-color: #00579D;
     padding: 3%;
