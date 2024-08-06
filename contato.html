@@ -21,24 +21,33 @@
           <label for="menu-toggle" class="menu-icon">&#9776;</label>
           <ul>
             <li>
-              <a href="#sobre" onclick="document.getElementById('menu-toggle').click()">Sobre</a>
+              <a href="index.html" onclick="document.getElementById('menu-toggle').click()">Voltar à página principal</a>
             </li>
             <li>
-              <a href="#contato" onclick="document.getElementById('menu-toggle').click()">Contato</a>
+              <a href="" onclick="document.getElementById('menu-toggle').click()">Sobre</a>
             </li>
           </ul>
         </nav>
     </header>
     <main>
-        <section  id="sobre">
-          <h2 class="titulos">Sobre</h2>
-          <p>
-            The Good Place é uma série de televisão de comédia fantasiosa criada por Michael Schur, um dos roteiristas e produtores de "sitcoms" mais influentes da TV americana. Ela estreou na NBC em 19 de setembro de 2016 e foi concluída em 30 de janeiro de 2020, após quatro temporadas e 53 episódios. No Brasil, foi transmitida pela Netflix. </p>
-          </p>
-        </section>
         <section id="contato">
           <h2 class="titulos">Contato</h2>
-          <p>Embora o enredo evolua significativamente ao longo da série, a premissa inicial segue Eleanor Shellstrop, uma mulher recebida após sua morte no "Good Place (Bom Lugar)", uma utopia altamente seletiva semelhante ao Paraíso projetada e administrada pelo "arquiteto" Michael após a morte como uma recompensa por sua vida justa. No entanto, ela percebe que foi enviada para lá por engano e deve esconder seu comportamento moralmente imperfeito do passado enquanto tenta se tornar uma pessoa melhor. </p>
+          <form>
+            <label>Nome completo</label>
+            <input type="text">
+            <label>Apelido</label>
+            <input type="text">
+            <label>Email</label>
+            <input type="email">
+            <label>Telefone celular</label>
+            <input type="number">
+            <label>Masculino</label>
+            <input type="radio">
+            <label>Feminino</label>
+            <input type="radio">
+            <label>Prefiro não informar</label>
+            <input type="radio">
+          </form>
         </section>
     </main>
     <footer class="rodape">

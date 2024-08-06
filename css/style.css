@@ -44,7 +44,6 @@ nav ul li {
 }
 
 nav ul li {
-    color: white;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -119,6 +118,11 @@ section{
 
 footer{
     background-color: #00579D;
+    padding: 3%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: #FFCB1F;
 }
 img{
     display: block; margin-left: auto ; margin-right: auto; width: 100%;
@@ -233,4 +237,20 @@ tr:nth-child(even){
         /* width: 100%; */
         display: block;
     }
+}
+
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+input {
+    width: calc(100% - 40px); /* Calcule a largura do input para considerar o padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 20px;
 }
